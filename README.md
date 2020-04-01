@@ -1,7 +1,7 @@
 # 2110A7
 Cornell CS 2110 Assignment 7 (Final Project)
 
-Work distribution: Phillip Ayoub wrote the initial algorithm for the first part (huntOrb), while I provided an optimization.  The second part (scram) was all done by myself.
+Work distribution: I wrote the initial algorithm for the first part (huntOrb), while Brendan Sullivan provided an optimization. 
 
 Under src/app, you can see the files we wrote.  Heap and Path are implementations of a max/min heap and of Djikstra's algorithm, respectively.  Pollack is where the main algorithm is located.  The first part of the algorithm is concerned with locating the exit to a maze as quickly as possible.  The whole layout of the maze is not known, merely the taxicab distances to the exit ("orb") of the current tile and the four tiles immediately surrounding it.  Our greedy algorithm includes a slight modification in order to slightly favor continuing in the same direction when confronted with two options, as this will generally minimize the pythagorean distance to the orb.  
 
