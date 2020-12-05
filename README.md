@@ -1,4 +1,4 @@
-# 2110A7
+# 2110- FP(A7)
 Cornell CS 2110 Assignment 7 (Final Project)
 
 Work distribution: I wrote the initial algorithm for the first part (huntOrb), while Brendan Sullivan provided an optimization. 
